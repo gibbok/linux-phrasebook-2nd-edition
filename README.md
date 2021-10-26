@@ -8,8 +8,8 @@ Intro
 - Maximum Filename Lengths (255 charachters, suggested maximum size is 80)
 - Names Are Case-Sensitive
 - Special Characters to Avoid in Names `/ \ ~ [ ] { } * ? ' ? <space>` (safe charachters: numbers, letters, dots, underscore)
-- Wildcards and What They Mean
-- Special Files That Affect Your Command Line
+- Wildcards and What They Mean `* = more characters; ? = single character; [] = single character or range; {} = strings or range`
+- Special Files That Affect Your Command Line (~/.bash_profile; ~/.bash_login; ~/.profile)
 - If There’s Too Much, Reset `clear`
 
 2 The Basics
