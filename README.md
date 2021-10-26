@@ -7,7 +7,7 @@ Intro
 - Everything Is a File (or better everything is a stream of bytes)
 - Maximum Filename Lengths (255 charachters, suggested maximum size is 80)
 - Names Are Case-Sensitive
-- Special Characters to Avoid in Names
+- Special Characters to Avoid in Names `/ \ ~ [ ] { } * ? ' ? <space>` (safe charachters: numbers, letters, dots, underscore)
 - Wildcards and What They Mean
 - Special Files That Affect Your Command Line
 - If There’s Too Much, Reset `clear`
