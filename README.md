@@ -5,11 +5,21 @@ Intro
 1 Things to Know About Your Command Line
 
 - Everything Is a File (or better everything is a stream of bytes)
-- Maximum Filename Lengths (255 characters, suggested maximum size is 80)
+- Maximum Filename Lengths
+	+ 255 Characters, suggested maximum size is 80
 - Names Are Case-Sensitive
-- Special Characters to Avoid in Names `/ \ ~ [ ] { } * ? ' ? <space>` (safe Characters to use instead: `numbers, letters, dots, underscore`)
-- Wildcards and What They Mean `* = more Characters; ? = single Character; [] = single Character or range; {} = strings or range`
-- Special Files That Affect Your Command Line (~/.bash_profile; ~/.bash_login; ~/.profile)
+- Special Characters to Avoid in Names
+	+ To avoid: `/ \ ~ [ ] { } * ? ' ? <space>`
+	+ Use instead: numbers, letters, dots, underscore
+- Wildcards and What They Mean
+	+ `*` more Characters
+	+ `?` single Character
+	+ `[]` single Character or range
+	+ `{}` strings or range
+- Special Files That Affect Your Command Line
+- 	+ ~/.bash_profile
+- 	+ ~/.bash_login
+- 	+ ~/.profile
 - If There’s Too Much, Reset `clear`
 
 2 The Basics
